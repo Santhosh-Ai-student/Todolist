@@ -1,5 +1,5 @@
 # Ex03 To-Do List using JavaScript
-## Date:
+## Date:17/11/26
 
 ## AIM
 To create a To-do Application with all features using JavaScript.
@@ -36,10 +36,37 @@ Deploy the website.
 Upload to GitHub Pages for free hosting.
 
 ## PROGRAM
+```
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>My To-Do List</h1>
+
+        <div class="input-box">
+            <input type="text" id="taskInput" placeholder="Enter a task">
+            <button onclick="addTask()">Add</button>
+        </div>
+
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+```
 
 ## OUTPUT
-
+![alt text](image.png)
 
 ## RESULT
 The program for creating To-do list using JavaScript is executed successfully.
